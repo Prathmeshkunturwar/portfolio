@@ -62,7 +62,7 @@ export default function Projects() {
   }, []);
 
   return (
-    <section id="projects" ref={sectionRef} className="relative overflow-hidden">
+    <section id="projects" ref={sectionRef} className="relative overflow-hidden bg-black">
       {/* Fixed header that stays visible during horizontal scroll */}
       <div ref={headerRef} className="absolute top-8 left-8 z-20 opacity-0">
         <p className="font-mono text-xs uppercase tracking-[0.3em] text-[#555555]">
@@ -146,7 +146,7 @@ export default function Projects() {
       <div className="absolute bottom-8 left-8 right-8 z-20">
         <div className="h-px bg-[#1A1A1A]">
           <div
-            className="h-px bg-gradient-to-r from-transparent via-[#333] to-transparent origin-left"
+            className="h-px bg-gradient-to-r from-transparent via-[#1A1A1A] to-transparent origin-left"
             style={{ width: "100%", transform: "scaleX(0)" }}
             id="project-progress"
           />

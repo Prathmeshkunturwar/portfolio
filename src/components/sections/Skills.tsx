@@ -44,7 +44,7 @@ export default function Skills() {
                   {skill}
                 </span>
                 {i < SKILLS.length - 1 && (
-                  <span className="text-[#333333] ml-3 text-lg lg:text-2xl">·</span>
+                  <span className="text-[#1A1A1A] ml-3 text-lg lg:text-2xl">·</span>
                 )}
               </span>
             ))}

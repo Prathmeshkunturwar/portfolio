@@ -56,7 +56,7 @@ export default function Experience() {
   }, []);
 
   return (
-    <section id="experience" ref={sectionRef} className="relative py-32">
+    <section id="experience" ref={sectionRef} className="relative py-32 bg-black">
       <div className="mx-auto max-w-[1400px] px-8">
         <p className="font-mono text-xs uppercase tracking-[0.3em] text-[#555555] mb-6">
           05 — Experience

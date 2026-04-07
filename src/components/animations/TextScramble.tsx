@@ -75,7 +75,9 @@ export default function TextScramble({
   }, [text, delay, duration, reducedMotion]);
 
   // During scramble, use mono font. After resolved, use the provided className
-  const activeClass = resolved ? className : (scrambleClassName || `font-mono text-[#64748B] ${className.includes("text-") ? "" : "text-[#F1F5F9]"}`);
+  const activeClass = resolved
+    ? className
+    : (scrambleClassName || "font-mono text-[#555555]");
 
   return (
     <span className={activeClass} aria-label={text}>

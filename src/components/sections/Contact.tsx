@@ -48,7 +48,7 @@ export default function Contact() {
   }, []);
 
   return (
-    <section id="contact" ref={sectionRef} className="relative py-32 lg:py-48">
+    <section id="contact" ref={sectionRef} className="relative py-32 lg:py-48 bg-black">
       <div className="mx-auto max-w-[1400px] px-8">
         <p className="font-mono text-xs uppercase tracking-[0.3em] text-[#555555] mb-12">
           06 — Contact
